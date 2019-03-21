@@ -1,0 +1,39 @@
+.navbar-brand img{
+  max-height: 50px;
+}
+
+header .row{
+  min-height: 70vh;
+  background-image: url("../../images/paysage.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  align-items: center;
+  color: white;
+  webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+
+}
+
+header .formReservation{
+  background-color: rgba(0,0,0,0,0.5);
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+header h1{
+  font-family: 'Raleway Dots', cursive;
+}
+
+header h2{
+  font-family: 'Dancing Script', cursive;
+}
+
+header .slogan{
+
+display: flex;
+min-height: 70vh;
+align-items: flex-end;
+justify-content: flex-end;
+
+}
